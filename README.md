@@ -29,6 +29,9 @@ Hackers usually use less suspicious or more important system processes such as: 
 
 * **How to find the PID of a running windows process:**
 
+![Screenshot_20231107_182320](https://github.com/Jsmoreira02/Wind0wsM4lware_/assets/103542430/2e262abf-32d6-448a-bbfb-c5c9f6922df8)
+
+
 ```bash
   tasklist | findstr <process name>
 ```
