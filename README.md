@@ -16,7 +16,7 @@ Simple payload for hacking Windows and process injection. Using the windows API 
 
 ### **Process injection**
 
-![ezgif com-video-to-gif](https://github.com/Jsmoreira02/Wind0wsM4lware_/assets/103542430/60f51a38-4e3a-421b-9dcc-2eb4187484cf)
+![ezgif com-video-to-gif](https://github.com/Jsmoreira02/Wind0wsM4lware_/assets/103542430/090ca836-8c52-4feb-ba99-911b6dbabd90)
 
 
 Process injection is an evasive attack method that hackers use to gain access to the system by executing their malicious code in the address space of a legitimate process, hiding the malware and often not generating any suspicion about an attacker on the system, as the malicious code becomes difficult to detect. Process injections also evade detection by any antivirus, application control, or endpoint detection and response systems running on the network because the infected processes are viewed as legitimate. 
@@ -29,7 +29,7 @@ Hackers usually use less suspicious or more important system processes such as: 
 
 * **How to find the PID of a running windows process:**
 
-![Screenshot_20231107_182320](https://github.com/Jsmoreira02/Wind0wsM4lware_/assets/103542430/2e262abf-32d6-448a-bbfb-c5c9f6922df8)
+![Screenshot_20231107_182320](https://github.com/Jsmoreira02/Wind0wsM4lware_/assets/103542430/1d9ab09e-04ac-45e2-8894-dfca0117868f)
 
 
 ```bash
