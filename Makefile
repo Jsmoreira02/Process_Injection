@@ -14,7 +14,6 @@ all: $(TARGETS)
 clean:
 	rm -f $(TARGETS)
 
-# Adicione uma regra para limpar um executável específico
 clean-%:
 	rm -f $*
 
