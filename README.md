@@ -37,16 +37,18 @@ Hackers usually use less suspicious or more important system processes such as: 
 ```
 => CMD syntax: `Process_injection.exe <PID>`
 
-# Compiling
+# Compiling | Install
 
-* **Compiling the code (Linux):** 
+* **Installation:** 
 ```bash 
-x86_64-w64-mingw32-gcc code.c -o code -static-libgcc
+git clone https://github.com/Jsmoreira02/Wind0wsM4lware_.git
+cd Wind0wsM4lware_
+make
 ```
-* **Compiling the code (Windows):**
-```bash
-gcc code.c -o code
-```
+
+* **Compiling just one of the files with "Makefile":** `make Process_injection` `make Win_malware` `make explorer_injection`
+
+* **Compiling the code (Windows):** `gcc code.c -o code` or `make (In case mingw-w64 is installed)`
 
 # MinGW-w64 Instalation:
 
