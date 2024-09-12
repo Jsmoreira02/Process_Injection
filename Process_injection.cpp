@@ -35,16 +35,7 @@ int steal_process(int process_ID) {
     
     std::this_thread::sleep_for(std::chrono::seconds(2));
 
-    hThread = CreateRemoteThreadEx(
-        hProcess, 
-        NULL, 
-        0, 
-        (LPTHREAD_START_ROUTINE)rBuffer, 
-        NULL, 
-        0, 
-        0, 
-        &new_pid
-    );
+    hThread = CreateRemoteThreadEx(hProcess, NULL, 0, (LPTHREAD_START_ROUTINE)rBuffer, NULL, 0, 0, &new_pid);
 
     if (hThread == NULL) {
         std::cerr << "[X] Failed to create remote thread\n";
