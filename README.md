@@ -4,7 +4,6 @@
     <img src="https://img.shields.io/badge/Tools%20-Windows API-green.svg" style="max-width: 100%;">
     <img src="https://img.shields.io/badge/Target OS%20-Windows 7..11-blue.svg" style="max-width: 100%;">
     <img src="https://img.shields.io/badge/Project%20-Malware | Process Injection-grey.svg" style="max-width: 100%;">
-    <img src="https://img.shields.io/badge/Hacking tool | Cybersecurity Awareness%20-teste?style=flat-square style="max-width: 100%;">
 </div>
 
 
