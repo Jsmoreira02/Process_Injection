@@ -61,7 +61,7 @@ sudo apt install mingw-w64 (32-bits)
 
 **Fedora**:
 ```bash 
-sudo dnf install mingw64-gcc
+sudo dnf install mingw64-gcc-c++
 ```
 
 **Arch Linux**:
