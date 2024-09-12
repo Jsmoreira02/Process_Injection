@@ -1,8 +1,8 @@
-CC = x86_64-w64-mingw32-gcc
+CC = x86_64-w64-mingw32-c++
 
-CFLAGS = -static-libgcc
+CFLAGS = -static
 
-SOURCES = explorer_injection.c Process_injection.c Win_malware.c
+SOURCES = explorer_injection.c Process_injection.c Win_malware.cpp
 
 TARGETS = $(SOURCES:.c=)
 
