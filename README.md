@@ -48,7 +48,7 @@ make
 
 * **Compiling just one of the files with "Makefile":** `make Process_injection` `make Win_malware` `make explorer_injection`
 
-* **Compiling the code (Windows):** `gcc code.c -o code` or `make (In case mingw-w64 is installed)`
+* **Compiling the code (Windows):** `g++ code.c -o code` or `make (In case mingw-w64 is installed)`
 
 # MinGW-w64 Instalation:
 
